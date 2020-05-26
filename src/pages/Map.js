@@ -1,0 +1,1 @@
+script(type='text/javascript' charset='utf-8' async='' src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A772371fbfa7adf2402a39861127ade0a9c013e1ca776380a0a1f946bc4708ff6&width=969&height=611&lang=ru_RU&scroll=true')

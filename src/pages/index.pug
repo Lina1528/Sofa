@@ -97,6 +97,19 @@ block main
             .commit
               label(for="commit") Комментарий
               input(type="text" name="commit")
+        .attachment
+          input(type="file" name="file" value="Прикрепить файл")
+        btn.request3
+          input(type="submit" name="request" value="Оставить заявку")
+      p.sign Вы можете прикрепить фото вашей мебели, <br>чтобы мастер мог оценить для вас стоимость работ
+    section.section-seventh
+      h7 Контакты
+      .row-2
+        .map 
+          script(src="/pages/Map.js")
+        p.contacts Адрес: 127204, г. Москва, Дмитровское шоссе 163, стр 21 <br>Телефон: +7-495-211-24-99  <br>Для связи по WhatsApp: +7-993-999-75-75 <br>Режим работы: Пн-Вс с 9:00 до 21:00 <br>Почта для связи: altamodamoscow@yandex.ru
+      h8 © Все права защищены <br>Политика конфиденциальности <br>Соглашение об обработке персональных данных
+
             
 
 

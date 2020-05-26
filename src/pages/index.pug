@@ -82,20 +82,22 @@ block main
     section.section-sixth
       h6 Требуется обновить диван?
       p.numbers Звоните по телефонам +7666565136 и +785645656 <br>оставьте заявку, чтобы узнать точную стоимость работ
-      .form-wrap
-        form(action="" method="post")
-          .name
-            label(for="name") Ваше имя*
-          .name1
-            input(type="text" name="name" required)
-          .nmb 
-            label(for="number") Номер телефона*
-          .nmb1
-            input(type="text" name="number" required) 
-          .email
-            label(for="email") E-mail*
-          .email1
-            input(type="email" name="email" required)
+      form(action="" method="post")
+        .form-wrap
+          .form-wrap1
+            .name
+              label(for="name") Ваше имя*
+              input(type="text" name="name" required)
+            .nmb 
+              label(for="number") Номер телефона*
+              input(type="tel" name="number" required)
+            .email
+              label(for="email") E-mail*
+              input(type="email" name="email" required)
+            .commit
+              label(for="commit") Комментарий
+              input(type="text" name="commit")
+            
 
 
 
